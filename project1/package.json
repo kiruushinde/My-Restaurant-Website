@@ -1,4 +1,5 @@
 {
+    "homepage": "https://kiruushinde.github.io/My-Restaurant-Website",
     "name": "inotebook",
     "version": "0.1.0",
     "private": true,
@@ -13,6 +14,8 @@
         "web-vitals": "^2.1.4"
     },
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "start": "react-scripts start",
