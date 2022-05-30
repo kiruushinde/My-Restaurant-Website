@@ -23,7 +23,7 @@ const MenuCard = ({ menuData }) => {
 
                                     <div className="card-read">Read</div>
 
-                                    <img src={require{image}} alt="" className='card-media w-[340px] h-[250px]' />
+                                    <img src={image} alt="Food Image" className='card-media w-[340px] h-[250px]' />
                                     <button className='hover:border-b-4 border-gray-600 px-3 py-1 my-8 font-medium text-lg rounded'>Order Now</button>
                                 </div>
                             </div>
